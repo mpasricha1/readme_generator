@@ -1,10 +1,11 @@
-# ReadMe Generator
+# g
+![badge](https://img.shields.io/badge/license-MIT)
 ## Description
-adds a readme 
+g
 ## Installation Instructions
-none
+d
 ## Usage 
-readme 
-## Contributors 
 s
+## Contributors 
+d
 
