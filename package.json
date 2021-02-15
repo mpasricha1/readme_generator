@@ -1,0 +1,19 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "An Application that builds readme's ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpasricha1/readme_generator.git"
+  },
+  "author": "Mark Pasricha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpasricha1/readme_generator/issues"
+  },
+  "homepage": "https://github.com/mpasricha1/readme_generator#readme"
+}
