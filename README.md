@@ -1,4 +1,4 @@
-# ReadMe Generator 
+# ReadMe Generator
 ![badge](https://img.shields.io/badge/License-MIT)
 
 ## Table of Contents 
@@ -11,13 +11,16 @@
 * [Question](#questions)
 
 ## Description
-This application is used to generate a professional readme for your applications
-## Installation Instructions
-"npm init npm install inquirer npm install fs" 
+The following project will take a bunch of inputs from a user and then generate a readme based on the user input 
+## Installation
+npm init npm install inquirer npm install fs
 ## Usage 
-The application generates a readme based on users input
+Generate a readme 
 ## License
+This application is licenses by MIT
 ## Contributing
-Mark 
+Makr
 ## Tests
 ## Questions
+Questions can be sent to the following email markp862@gmail.com or you can visit my github page at [GitHub Link](#https://github.com/mpasricha1).
+
