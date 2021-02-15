@@ -1,6 +1,6 @@
 const inquirer = require('inquirer'); 
 const fs = require('fs'); 
-const generateReadme = require('./generateReadme.js');
+const generateReadme = require('./functions/generateReadme.js');
 
 function promptUser(){
 	return inquirer.prompt([
@@ -61,7 +61,9 @@ async function main(){
 	try{
 		const promptAnswers = await promptUser(); 
 		const readMe = generateReadme(promptAnswers); 
-		console.log(readMe)
+		fs.writeFile("README.md", readMe, (err) =>{
+			err ? console.log(err) : null
+		})
 	}catch(err){
 		console.log(err)
 	}
