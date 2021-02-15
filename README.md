@@ -1,5 +1,5 @@
 # ReadMe Generator
-![badge](https://img.shields.io/badge/License-MIT)
+![badge](https://img.shields.io/badge/License-Apache-2.0)
 
 ## Table of Contents 
 * [Description](#description)
@@ -11,15 +11,15 @@
 * [Question](#questions)
 
 ## Description
-The following project will take a bunch of inputs from a user and then generate a readme based on the user input 
+This application was created in order to create readme files programatically. The user is given a series of prompts to answer which will become the content for the read me. 
 ## Installation
-npm init npm install inquirer npm install fs
+To run this application the user must first have node js installed. There are two dependencies that must also be installed. These are inquirer and fs modules. You can install these with the following commands npm install inquirer and npm install fs
 ## Usage 
-Generate a readme 
+to quickly build a readme for your application 
 ## License
-This application is licenses by MIT
+This application is licenses by Apache-2.0
 ## Contributing
-Makr
+Mark
 ## Tests
 ## Questions
 Questions can be sent to the following email markp862@gmail.com or you can visit my github page at [GitHub Link](#https://github.com/mpasricha1).
