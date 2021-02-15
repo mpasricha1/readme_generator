@@ -1,6 +1,8 @@
 function generateReadme(promptAnswers){
 	return `# ${promptAnswers.title}
-![badge](https://img.shields.io/badge/license-${promptAnswers.license})
+![badge](https://img.shields.io/badge/License-${promptAnswers.license})
+## Table of Contents 
+* [Description](#description)
 ## Description
 ${promptAnswers.description}
 ## Installation Instructions
