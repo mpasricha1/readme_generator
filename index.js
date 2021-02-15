@@ -1,5 +1,6 @@
 const inquirer = require('inquirer'); 
 const fs = require('fs'); 
+const generateReadme = require('./generateReadme.js');
 
 function promptUser(){
 	return inquirer.prompt([
@@ -57,8 +58,14 @@ function promptUser(){
 
 
 async function main(){
-	const promptAnswers = await promptUser(); 
-	console.log(promptAnswers)
+	try{
+		const promptAnswers = await promptUser(); 
+		const readMe = generateReadme(promptAnswers); 
+		console.log(readMe)
+	}catch(err){
+		console.log(err)
+	}
+	
 }
 
 main();
