@@ -1,7 +1,10 @@
 # ReadMe Generator
-
 ## Description
-This app will generate a readme for your project
+adds a readme 
+## Installation Instructions
+none
+## Usage 
+readme 
+## Contributors 
+s
 
-
-	

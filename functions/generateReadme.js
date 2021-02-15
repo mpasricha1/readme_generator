@@ -1,12 +1,15 @@
 function generateReadme(promptAnswers){
-	return `
-	# ${promptAnswers.title}
+	return `# ${promptAnswers.title}
+## Description
+${promptAnswers.description}
+## Installation Instructions
+${promptAnswers.installation}
+## Usage 
+${promptAnswers.usage}
+## Contributors 
+${promptAnswers.contributing}
 
-	## Description
-	${promptAnswers.description}
-
-
-	`
+`
 }
 
 module.exports = generateReadme
