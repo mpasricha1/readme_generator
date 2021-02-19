@@ -15,7 +15,8 @@ The purpose of this project was to help users create a professional looking read
 ## Installation
 The install process for this project are fairly simple. First run npm install, this will install the two packages require for this program which are: inquirer and fs. To run the application, while in the root folder for the application run npm index
 ## Usage
-[![Walkthrough](screen-capture.gif)]
+[Walkthrough](screen-capture.gif)
+
 There are three main functions for this application: promptUser, generateReadMe and finally saveFile. When the application is run the promptUser function is called. This function imports the inquirer module in order to create a prompt to the user to input the needed information. Next the read me is generated using the generateReadMe function. A simple function that takes the answers from prompt user and uses that information to return a readme document already marked up. Then the saveFile function imports the fs module and saves the newly created read me. This is all controlled from a main function within the index.js file. 
 ## License
 This application is licensed by Unlicense
