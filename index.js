@@ -2,7 +2,7 @@ const generateReadme = require('./functions/generateReadme.js');
 const promptUser = require('./functions/promptUser.js');
 const saveFile = require('./functions/saveFile.js');
 
-async function main(){
+async function init(){
 	try{
 		const promptAnswers = await promptUser(); 
 		const readMe = generateReadme(promptAnswers); 
@@ -12,4 +12,4 @@ async function main(){
 	};	
 };
 
-main();
+init();
