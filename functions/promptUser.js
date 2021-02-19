@@ -27,7 +27,7 @@ function promptUser(){
 			type: "list", 
 			name: "license", 
 			message: "Select the license type for this project: ", 
-			choices: ["MIT","LGPL-3.0","MPL-2.0", "AGPL-3.0", "Unlicense", "Apache-2.0", "GPL-3.0"]
+			choices: ["MIT","Apache","Mozilla", "GNU", "Unlicense"]
 		}, 
 		{
 			type: "input", 

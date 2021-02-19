@@ -1,5 +1,5 @@
 # Professional Readme Generator
-![badge](https://img.shields.io/badge/License-Unlicense)
+![badge](https://img.shields.io/badge/License-MIT-blue)
 
 ## Table of Contents 
 * [Description](#description)
@@ -21,6 +21,7 @@ This application is licensed by Unlicense
 ## Contributing
 Feel free to fork and contribute in anyway you see fit. 
 ## Tests
+There are no tests for this application.
 ## Questions
 Questions can be sent to the following email markp862@gmail.com 
 OR you can visit my github page [mpasricha1](https://github.com/mpasricha1).
