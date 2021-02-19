@@ -18,12 +18,13 @@ ${promptAnswers.installation}
 ## Usage 
 ${promptAnswers.usage}
 ## License
-This application is licenses by ${promptAnswers.license}
+This application is licensed by ${promptAnswers.license}
 ## Contributing
 ${promptAnswers.contributing}
 ## Tests
 ## Questions
-Questions can be sent to the following email ${promptAnswers.email} or you can visit my github page at [GitHub Link](#https://github.com/${promptAnswers.username}).
+Questions can be sent to the following email ${promptAnswers.email} 
+OR you can visit my github page [${promptAnswers.username}](https://github.com/${promptAnswers.username}).
 
 `
 }
